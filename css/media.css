@@ -1,0 +1,73 @@
+@media (max-width: 1400px) {
+    /* banner */
+    .prewiev-content {padding-left: 100px;}
+    .company-prewiev__image__img {width: 600px;}
+    .bg-gradient {min-height: 700px;}
+    /* banner-end */
+}
+
+@media (max-width: 1200px) {
+    /* navbar */
+    .header {padding-left: 10px; padding-right: 10px;}
+    /* navbar end */
+
+    /* banner */
+    .prewiev-content__text__item {font-size: 75px;}
+    .prewiev-content__buttons__btn {padding: 15px 30px;}
+    .company-prewiev__image__img {width: 500px;}
+    .bg-gradient {min-height: 600px;}
+    .prewiev-content {padding-left: 80px;}
+    /* banner end */
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 992px) {
+    /* banner */
+    .prewiev-content__text__item {font-size: 65px;}
+    .prewiev-content__buttons__btn {padding: 10px 20px;}
+    .company-prewiev__image__img {width: 380px;}
+    .bg-gradient {min-height: 450px;}
+    .prewiev-content {padding-left: 40px;}
+    /* banner end */
+}
+@media (max-width: 768px) {
+    /* banner */
+    .prewiev-content__text__item {font-size: 50px;}
+    .prewiev-content__text {padding-bottom: 20px;}
+    .prewiev-content__text p:nth-child(2) {padding-left: 50px;}
+    .prewiev-content__buttons__btn {padding: 10px 20px; font-size: 12px;}
+    .company-prewiev__image__img {width: 260px;}
+    .bg-gradient {min-height: 330px;}
+    .prewiev-content {padding-left: 40px;}
+    /* banner end */
+}
+
+@media (max-width: 576px) {
+    /* navbar */
+    .header {flex-direction: column; align-items: center;}
+    .header-logo {justify-content: center; margin-bottom: 15px;}
+    /* navbar end */
+
+    /* banner */
+    .prewiev-content {width: 100%; padding-left: 0px;}
+    .prewiev-content__text {text-align: center;}
+    .prewiev-content__buttons {justify-content: center;}
+    .company-prewiev__image {display: none;}
+    .prewiev-content__text__item {font-size: 60px;}
+    .prewiev-content__text p:nth-child(2) {padding-left: 75px;}
+    .prewiev-content__buttons__btn {padding: 15px 55px;}
+    /* banner end */
+}
+@media (max-width: 480px) {
+    /* navbar */
+    .navbar-list {column-gap: 30px;}
+    .navbar-list__link {font-size: 16px;}
+    /* navbar end */
+
+    /* banner */
+    .prewiev-content__buttons__btn {padding: 12px 35px;}
+    /* banner end */
+}
+@media (max-width: 375px) {}
+
