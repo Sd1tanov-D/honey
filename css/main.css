@@ -76,6 +76,18 @@
 
     border-radius: 30px;
     background: linear-gradient(76deg, #FF9D2D 1.66%, #FFD877 93.21%);
+
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    
+}
+
+.bg-gradient::before {
+    content: url('../img/prewiev-img.svg');
+    position: absolute;
+    z-index: -1;
+    right: 10px;
 }
 
 .prewiev-content {
