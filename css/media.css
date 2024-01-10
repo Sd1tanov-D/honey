@@ -4,12 +4,20 @@
     .company-prewiev__image__img {width: 600px;}
     .bg-gradient {min-height: 700px;}
     /* banner-end */
+
+    /* honey-about */
+    .honey-about__content__image__img {width: 650px;}
+    /* honey-about end */
 }
 
 @media (max-width: 1200px) {
     /* navbar */
     .header {padding-left: 10px; padding-right: 10px;}
     /* navbar end */
+
+    /* our-markets */
+    .our-markets {padding-right: 10px; padding-left: 10px;}
+    /* our-markets end*/
 
     /* banner */
     .prewiev-content__text__item {font-size: 75px;}
@@ -18,21 +26,54 @@
     .bg-gradient {min-height: 600px;}
     .prewiev-content {padding-left: 80px;}
     /* banner end */
+
+    /* honey-about */
+    .honey-about__content__image__img {width: 550px;}
+    .honey-about__content__text__title {font-size: 35px;}
+    .honey-about__content__text__txt {font-size: 18px;}
+    .honey-about__content__text__button__btn {padding: 12px 30px;}
+    /* honey-about end */
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    /* banner */
+    .company-prewiev {margin-bottom: 100px;}
+    /* banner end */
+
+    /* honey-about */
+    .honey-about__content__image__img {width: 500px;}
+    .honey-about__content__text__title {font-size: 30px; padding-bottom: 20px;}
+    .honey-about__content__text__txt {font-size: 16px;}
+    .honey-about__content__text__button {padding-top: 40px;}
+    .honey-about__content__text__button__btn {padding: 10px 25px; font-size: 16px;}
+    /* honey-about end */
+}
 
 @media (max-width: 992px) {
     /* banner */
+    .company-prewiev {margin-bottom: 80px;}
     .prewiev-content__text__item {font-size: 65px;}
     .prewiev-content__buttons__btn {padding: 10px 20px;}
     .company-prewiev__image__img {width: 380px;}
     .bg-gradient {min-height: 450px;}
     .prewiev-content {padding-left: 40px;}
     /* banner end */
+
+    /* our-markets */
+    .our-markets__title {font-size: 30px; padding-bottom: 40px;}
+    .our-markets__list__item__link__img {height: 30px;}
+    /* our-markets end*/
+
+    /* honey-about */
+    .honey-about__content__image__img {width: 400px;}
+    .honey-about__content__text__title {font-size: 25px;}
+    .honey-about__content__text__txt {font-size: 15px;}
+    .honey-about__content__text__button {padding-top: 30px;}
+    /* honey-about end */
 }
 @media (max-width: 768px) {
     /* banner */
+    .company-prewiev {margin-bottom: 50px;}
     .prewiev-content__text__item {font-size: 50px;}
     .prewiev-content__text {padding-bottom: 20px;}
     .prewiev-content__text p:nth-child(2) {padding-left: 50px;}
@@ -41,6 +82,20 @@
     .bg-gradient {min-height: 330px;}
     .prewiev-content {padding-left: 40px;}
     /* banner end */
+
+    /* our-markets */
+    .our-markets {margin-bottom: 75px;}
+    .our-markets__list__item__link__img {height: 23px;}
+    /* our-markets end*/
+
+    /* honey-about */
+    .honey-about__content {column-gap: 15px;}
+    .honey-about__content__image__img {width: 300px;}
+    .honey-about__content__text__title {font-size: 20px; padding-bottom: 20px;}
+    .honey-about__content__text__txt {font-size: 12px;}
+    .honey-about__content__text__button {padding-top: 30px;}
+    .honey-about__content__text__button__btn {padding: 6px 6px; font-size: 14px;}
+    /* honey-about end */
 }
 
 @media (max-width: 576px) {
@@ -50,6 +105,7 @@
     /* navbar end */
 
     /* banner */
+    .company-prewiev {margin-bottom: 40px;}
     .prewiev-content {width: 100%; padding-left: 0px;}
     .prewiev-content__text {text-align: center;}
     .prewiev-content__buttons {justify-content: center;}
@@ -58,6 +114,22 @@
     .prewiev-content__text p:nth-child(2) {padding-left: 75px;}
     .prewiev-content__buttons__btn {padding: 15px 55px;}
     /* banner end */
+
+    /* our-markets */
+    .our-markets__title {font-size: 20px; text-align: center; padding-bottom: 25px;}
+    .our-markets__list {flex-direction: column;}
+    .our-markets__list__item {display: flex; justify-content: center; padding-bottom: 25px;}
+    .our-markets__list__item:last-child {padding-bottom: 0;}
+    .our-markets__list__item__link__img {height: 23px;}
+    /* our-markets end*/
+
+    /* honey-about */
+    .honey-about {row-gap: 50px;}
+    .honey-about__content {column-gap: 15px; flex-direction: column; align-items: center;}
+    .honey-about__content:nth-child(2) {flex-direction: column;}
+    .honey-about__content__text__title {text-align: center;}
+    .honey-about__content__text__button {justify-content: center;}
+    /* honey-about end */
 }
 @media (max-width: 480px) {
     /* navbar */
