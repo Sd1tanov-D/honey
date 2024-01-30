@@ -36,18 +36,9 @@
 
     /* our-products */
     .our-product {padding-right: 10px; padding-left: 10px;}
-    .our-product__description {}
-    .our-product__description__title {}
-    .our-product__description__link {}
-    .our-product__honey {}
-    .honey__eucalyptus {}
-    .product__content {}
     .product__content__title {font-size: 25px;}
     .product__content__text {font-size: 15px;}
-    .product__content__btn {}
-    .product__content__btn__image {}
     .product__content__btn__image__img {height: 200px;}
-    .honey__basswood {}
     /* our-products end */
 }
 
@@ -64,22 +55,9 @@
     .honey-about__content__text__button__btn {padding: 10px 25px; font-size: 16px;}
     /* honey-about end */
 
-        /* our-products */
-        .our-product {}
-        .container {}
-        .our-product__description {}
-        .our-product__description__title {}
-        .our-product__description__link {}
-        .our-product__honey {}
-        .honey__eucalyptus {}
-        .product__content {}
-        .product__content__title {}
-        .product__content__text {font-size: 14px;}
-        .product__content__btn {}
-        .product__content__btn__image {}
-        .product__content__btn__image__img {}
-        .honey__basswood {}
-        /* our-products end */
+    /* our-products */
+    .product__content__text {font-size: 14px;}
+    /* our-products end */
 }
 
 @media (max-width: 992px) {
@@ -105,22 +83,19 @@
     /* honey-about end */
 
      /* our-products */
-     .our-product {}
-     .container {}
-     .our-product__description {}
-     .our-product__description__title {}
-     .our-product__description__link {}
-     .our-product__honey {}
+     .our-product__description__title {font-size: 35px;}
+
      .honey__eucalyptus {flex-direction: column-reverse; padding: 5px;}
      .product__content {display: flex; flex-direction: column; align-items: center;}
      .product__content__title {font-size: 16px;}
-     .product__content__text {text-align: center;}
+     .product__content__text {text-align: center; font-size: 15px;}
      .product__content__btn {margin-bottom: 10px;}
      .product__content__image {display: flex; justify-content: center;}
-     .product__content__image__img {}
-     .honey__basswood {}
+     .honey__basswood {flex-direction: column-reverse; padding: 5px; justify-content: center; padding-top: 20px;}
+     .honey__basswood img {padding-bottom: 15px;}
      /* our-products end */
 }
+
 @media (max-width: 768px) {
     /* banner */
     .company-prewiev {margin-bottom: 50px;}
@@ -146,6 +121,10 @@
     .honey-about__content__text__button {padding-top: 30px;}
     .honey-about__content__text__button__btn {padding: 6px 6px; font-size: 14px;}
     /* honey-about end */
+
+    /* our-products */
+    .product__content__text {font-size: 13px;}
+    /* our-products end */
 }
 
 @media (max-width: 576px) {
@@ -180,7 +159,16 @@
     .honey-about__content__text__title {text-align: center;}
     .honey-about__content__text__button {justify-content: center;}
     /* honey-about end */
+
+    /* our-products */
+    .our-product__description {margin-bottom: 30px;}
+    .our-product__description__title { font-size: 25px;}
+    .our-product__description__link {font-size: 15px;}
+    .product__content__text {font-size: 12px;}
+    .product__content__image__img {height: 150px;}
+    /* our-products end */
 }
+
 @media (max-width: 480px) {
     /* navbar */
     .navbar-list {column-gap: 30px;}
@@ -190,6 +178,15 @@
     /* banner */
     .prewiev-content__buttons__btn {padding: 12px 35px;}
     /* banner end */
-}
-@media (max-width: 375px) {}
 
+    /* our-products */
+    .our-product__honey { column-gap: 15px;}
+    .product__content__text {font-size: 11px; margin-bottom: 20px;}
+    .product__content__btn {padding: 5px 20px;}
+    .product__content__image__img {height: 100px;}
+    /* our-products end */
+}
+
+@media (max-width: 375px) {
+    .product__content__text {font-size: 9px;}
+} 
