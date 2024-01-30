@@ -40,6 +40,11 @@
     .product__content__text {font-size: 15px;}
     .product__content__btn__image__img {height: 200px;}
     /* our-products end */
+
+    /* footer */
+    .footer-center {padding-right: 10px; padding-left: 10px;}
+    /* footer end */
+
 }
 
 @media (max-width: 1024px) {
@@ -84,7 +89,6 @@
 
      /* our-products */
      .our-product__description__title {font-size: 35px;}
-
      .honey__eucalyptus {flex-direction: column-reverse; padding: 5px;}
      .product__content {display: flex; flex-direction: column; align-items: center;}
      .product__content__title {font-size: 16px;}
@@ -94,6 +98,13 @@
      .honey__basswood {flex-direction: column-reverse; padding: 5px; justify-content: center; padding-top: 20px;}
      .honey__basswood img {padding-bottom: 15px;}
      /* our-products end */
+
+     /* footer */
+    .footer {padding: 20px 0;}
+    .footer-center {flex-direction: column; align-items: center; row-gap: 30px;}
+    .footer-about {flex-direction: column; text-align: center; row-gap: 10px;}
+    .footer-about__logo {min-height: 50px;}
+    /* footer end */
 }
 
 @media (max-width: 768px) {
@@ -146,10 +157,9 @@
 
     /* our-markets */
     .our-markets__title {font-size: 20px; text-align: center; padding-bottom: 25px;}
-    .our-markets__list {flex-direction: column;}
-    .our-markets__list__item {display: flex; justify-content: center; padding-bottom: 25px;}
-    .our-markets__list__item:last-child {padding-bottom: 0;}
-    .our-markets__list__item__link__img {height: 23px;}
+    .our-markets__list {flex-direction: column; align-items: center;}
+    .our-markets__list__item {display: flex; margin-bottom: 10px;}
+    .our-markets__list__item:last-child {margin: 0;}
     /* our-markets end*/
 
     /* honey-about */
@@ -180,13 +190,12 @@
     /* banner end */
 
     /* our-products */
-    .our-product__honey { column-gap: 15px;}
-    .product__content__text {font-size: 11px; margin-bottom: 20px;}
-    .product__content__btn {padding: 5px 20px;}
-    .product__content__image__img {height: 100px;}
+    .our-product {padding-right: 0; padding-left: 0;}
+    .our-product__description {padding-right: 10px; padding-left: 10px;}
+    .our-product__honey {flex-direction: column; row-gap: 15px;}
+    .product__content__title {font-size: 20px;}
+    .product__content__text { font-size: 16px;}
     /* our-products end */
 }
 
-@media (max-width: 375px) {
-    .product__content__text {font-size: 9px;}
-} 
+@media (max-width: 375px) {} 
