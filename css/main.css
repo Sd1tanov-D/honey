@@ -85,7 +85,7 @@
 }
 
 .bg-gradient::before {
-    content: url('../img/prewiev-img.svg');
+    content: url('../img/preview/preview-text.svg');
     position: absolute;
     z-index: -1;
     right: 10px;
